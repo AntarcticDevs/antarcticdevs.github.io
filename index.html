@@ -12,18 +12,24 @@
         }
 
         a {
-            color: #3789C9
+            color: #1F6AA5
         }
 
         a:hover {
             color: #123253
         }
 
-        .logo {
-            clip-path: polygon(12% 0, 88% 0, 100% 12%, 100% 88%,
-                    88% 100%, 12% 100%, 0 88%, 0 12%);
+        #contact a {
+            color: #B9DFFF;
+        }
+
+        #contact a:hover {
+            color: #FFFFFF;
         }
     </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./logo.png">
 </head>
 
 <body>
@@ -44,71 +50,86 @@
                         style="color: #B9DFFF; text-decoration: none; padding: 8px 16px; min-height: 44px; box-sizing: border-box">Contact</a>
                 </nav>
             </header>
-            <section
-                style="max-width: 1120px; margin: 0 auto; padding: 72px 32px 96px; box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 48px">
-                <div style="flex: 1 1 420px; display: flex; flex-direction: column; gap: 24px">
-                    <h1
-                        style="margin: 0; font-size: 64px; line-height: 1.05; letter-spacing: -2px; color: #FFFFFF; font-weight: 700">
-                        Building ideas into reality.</h1>
-                    <p style="margin: 0; font-size: 20px; line-height: 1.5; color: #B9DFFF; max-width: 520px">
-                        AntarcticDevs is an independent software development organisation focused on building and
-                        maintaining software projects.
-                        Currently, our projects include Garnet, a Discord bot-engine, and GarnetMC, an ongoing
-                        Minecraft-related project.
-
-                        We're at the beginning of our journey, exploring ideas, learning, and turning them into working
-                        software.</p>
-                    <div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 8px">
-                        <a href="#projects"
-                            style="background: #3789C9; color: #071426; text-decoration: none; font-weight: 700; padding: 14px 28px; border-radius: 8px; min-height: 44px; box-sizing: border-box">See
-                            projects</a>
-                        <a href="#contact"
-                            style="color: #FFFFFF; text-decoration: none; font-weight: 500; padding: 14px 28px; border-radius: 8px; border: 2px solid #123253; min-height: 44px; box-sizing: border-box">Get
-                            in touch</a>
-                    </div>
-                </div>
-                <img src="./logo.png" alt="AntarcticDevs logo" width="280" height="280"
-                    style="flex: 0 0 auto; max-width: 100%; border-radius: 20%">
-            </section>
         </div>
-        <section id="projects" style="max-width: 1120px; margin: 0 auto; padding: 80px 32px; box-sizing: border-box">
-            <h2 style="margin: 0 0 32px; font-size: 36px; letter-spacing: -1px">Projects</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px">
-                <article
-                    style="background: #FFFFFF; border: 1px solid #B9DFFF; border-radius: 8px; padding: 28px; display: flex; flex-direction: column; gap: 8px">
-                    <h3 style="margin: 0; font-size: 22px">Garnet</h3>
-                    <p style="margin: 0; line-height: 1.5; color: #123253">Discord Bot Engine</p>
-                    <a href="https://garnetdiscord.github.io/">view</a>
-                </article>
-                <article
-                    style="background: #FFFFFF; border: 1px solid #B9DFFF; border-radius: 8px; padding: 28px; display: flex; flex-direction: column; gap: 8px">
-                    <h3 style="margin: 0; font-size: 22px">GarnetMC</h3>
-                    <p style="margin: 0; line-height: 1.5; color: #123253">Minecraft integration.</p>
-                    <a href="https://youtu.be/dQw4w9WgXcQ?si=vxxTHr5pBwigRLar">coming soon</a>
-                </article>
-                <article
-                    style="background: #FFFFFF; border: 1px solid #B9DFFF; border-radius: 8px; padding: 28px; display: flex; flex-direction: column; gap: 8px">
-                    <h3 style="margin: 0; font-size: 22px">COMING SOON</h3>
-                    <p style="margin: 0; line-height: 1.5; color: #123253">Soon...</p>
-                    <a href="https://youtu.be/dQw4w9WgXcQ?si=vxxTHr5pBwigRLar">view</a>
-                </article>
+
+        <main>
+            <div style="background: #071426">
+                <section
+                    style="max-width: 1120px; margin: 0 auto; padding: 72px 32px 96px; box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 48px">
+                    <div style="flex: 1 1 420px; display: flex; flex-direction: column; gap: 24px">
+                        <h1
+                            style="margin: 0; font-size: 64px; line-height: 1.05; letter-spacing: -2px; color: #FFFFFF; font-weight: 700">
+                            Building ideas into reality.</h1>
+                        <p style="margin: 0; font-size: 20px; line-height: 1.5; color: #B9DFFF; max-width: 520px">
+                            AntarcticDevs is an independent software development organisation focused on building and
+                            maintaining software projects.</p>
+                        <p style="margin: 0; font-size: 20px; line-height: 1.5; color: #B9DFFF; max-width: 520px">
+                            Our projects include Garnet, a Discord bot-engine, and GarnetMC, an ongoing
+                            Minecraft-related
+                            project. We're at the beginning of our journey, exploring ideas, learning, and turning them
+                            into
+                            working software.</p>
+                        <div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 8px">
+                            <a href="#projects"
+                                style="background: #3789C9; color: #071426; text-decoration: none; font-weight: 700; padding: 14px 28px; border-radius: 8px; min-height: 44px; box-sizing: border-box">See
+                                projects</a>
+                            <a href="#contact"
+                                style="color: #FFFFFF; text-decoration: none; font-weight: 500; padding: 14px 28px; border-radius: 8px; border: 2px solid #3789C9; min-height: 44px; box-sizing: border-box">Get
+                                in touch</a>
+                        </div>
+                    </div>
+                    <img src="./logo.png" alt="AntarcticDevs logo" width="280" height="280"
+                        style="flex: 0 0 auto; max-width: 100%; height: auto; border-radius: 20%">
+                </section>
             </div>
-        </section>
-        <section id="contact" style="max-width: 1120px; margin: 0 auto; padding: 0 32px 80px; box-sizing: border-box">
-            <div
-                style="background: #071426; border-radius: 12px; padding: 48px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px">
-                <h2 style="margin: 0; font-size: 32px; letter-spacing: -1px; color: #FFFFFF">Have something to
-                    build?</h2>
-                <a href="#contact"
-                    style="background: #3789C9; color: #071426; text-decoration: none; font-weight: 700; padding: 14px 28px; border-radius: 8px; min-height: 44px; box-sizing: border-box">antarcticdevs@gmail.com</a>
-            </div>
-        </section>
+            <section id="projects"
+                style="max-width: 1120px; margin: 0 auto; padding: 80px 32px; box-sizing: border-box">
+                <h2 style="margin: 0 0 32px; font-size: 36px; letter-spacing: -1px">Projects</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px">
+                    <article
+                        style="background: #FFFFFF; border: 1px solid #B9DFFF; border-radius: 8px; padding: 28px; display: flex; flex-direction: column; gap: 8px">
+                        <a href="https://garnetdiscord.github.io/">
+                            <h3 style="margin: 0; font-size: 22px">Garnet</h3>
+                        </a>
+                        <p style="margin: 0; line-height: 1.5; color: #123253">Discord Bot Engine</p>
+                        <a href="https://garnetdiscord.github.io/">
+                            <img src="./garnet-website-preview.png" alt="Screenshot of the Garnet website"
+                                style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px;">
+                        </a>
+                    </article>
+
+                    <article
+                        style="background: #FFFFFF; border: 1px solid #B9DFFF; border-radius: 8px; padding: 28px; display: flex; flex-direction: column; gap: 8px">
+                        <h3 style="margin: 0; font-size: 22px">GarnetMC</h3>
+                        <p style="margin: 0; line-height: 1.5; color: #123253">Minecraft integration.</p>
+                        <a href="https://youtu.be/dQw4w9WgXcQ?si=vxxTHr5pBwigRLar">coming soon</a>
+                    </article>
+                    
+                    <article
+                        style="background: #FFFFFF; border: 1px solid #B9DFFF; border-radius: 8px; padding: 28px; display: flex; flex-direction: column; gap: 8px">
+                        <h3 style="margin: 0; font-size: 22px">COMING SOON</h3>
+                        <p style="margin: 0; line-height: 1.5; color: #123253">Soon...</p>
+                        <a href="https://youtu.be/dQw4w9WgXcQ?si=vxxTHr5pBwigRLar">view</a>
+                    </article>
+                </div>
+            </section>
+
+            <hr style="border: 0; border-top: 3px solid #123253; margin: 0;">
+
+            <section id="contact"
+                style="max-width: 1120px; margin: 0 auto; padding: 80px 32px 80px; box-sizing: border-box">
+                <div style="background: #071426; border-radius: 12px; padding: 48px;
+       display: flex; flex-direction: column; align-items: flex-start; gap: 16px">
+                    <h2 style="margin: 0; font-size: 42px; letter-spacing: -1px; color: #FFFFFF">Contact us:</h2>
+                    <p style="margin: 0; font-size: 24px; letter-spacing: -1px; color: #FFFFFF">
+                        Email us: <a href="mailto:antarcticdevs@gmail.com">antarcticdevs@gmail.com</a>
+                        <br>
+                        Discord: <a href="https://dsc.gg/antarcticdevs">https://dsc.gg/antarcticdevs</a>
+                    </p>
+                </div>
+            </section>
+        </main>
         <footer style="max-width: 1120px; margin: 0 auto; padding: 0 32px 40px; box-sizing: border-box; color: #123253">
-            Email us: antarcticdevs@gmail.com
-            <br>
-            Discord: https://dsc.gg/antarcticdevs
-            <br>
-            <br>
             © 2026 AntarcticDevs
         </footer>
     </div>
