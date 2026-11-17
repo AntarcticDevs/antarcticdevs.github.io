@@ -26,6 +26,27 @@
         #contact a:hover {
             color: #FFFFFF;
         }
+
+        .primary-button {
+            background-color: #3789C9;
+            color: #071426;
+        }
+
+        .primary-button:hover {
+            background-color: #217cc2;
+            color: #071426;
+        }
+
+        .primary-button-2nd {
+            background-color: #071426;
+            border: 2px solid #3789C9;
+            color: #ffffff;
+        }
+
+        .primary-button-2nd:hover {
+            background-color: #091b33;
+            color: #ffffff;
+        }
     </style>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -70,12 +91,12 @@
                             into
                             working software.</p>
                         <div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 8px">
-                            <a href="#projects"
-                                style="background: #3789C9; color: #071426; text-decoration: none; font-weight: 700; padding: 14px 28px; border-radius: 8px; min-height: 44px; box-sizing: border-box">See
+                            <a href="#projects" class="primary-button"
+                                style="text-decoration: none; font-weight: 700; padding: 14px 28px; border-radius: 8px; min-height: 44px; box-sizing: border-box;">See
                                 projects</a>
-                            <a href="#contact"
-                                style="color: #FFFFFF; text-decoration: none; font-weight: 500; padding: 14px 28px; border-radius: 8px; border: 2px solid #3789C9; min-height: 44px; box-sizing: border-box">Get
-                                in touch</a>
+                            <a href="#contact" class="primary-button-2nd"
+                                style="text-decoration: none; font-weight: 500; padding: 14px 28px; border-radius: 8px; min-height: 44px; box-sizing: border-box;">
+                                Get in touch</a>
                         </div>
                     </div>
                     <img src="./logo.png" alt="AntarcticDevs logo" width="280" height="280"
@@ -100,22 +121,31 @@
 
                     <article
                         style="background: #FFFFFF; border: 1px solid #B9DFFF; border-radius: 8px; padding: 28px; display: flex; flex-direction: column; gap: 8px">
-                        <h3 style="margin: 0; font-size: 22px">GarnetMC</h3>
-                        <p style="margin: 0; line-height: 1.5; color: #123253">Minecraft integration.</p>
-                        <a href="https://youtu.be/dQw4w9WgXcQ?si=vxxTHr5pBwigRLar">coming soon</a>
+                        <a href="https://youtu.be/dQw4w9WgXcQ?si=vxxTHr5pBwigRLar">
+                            <h3 style="margin: 0; font-size: 22px">GarnetMC</h3>
+                        </a>
+                        <p style="margin: 0; line-height: 1.5; color: #123253">Minecraft plugin</p>
+                        <a href="https://youtu.be/dQw4w9WgXcQ?si=vxxTHr5pBwigRLar">
+                            <img src="./MC-screenshot.png"
+                                alt="Screenshot of a minecraft server with a garnetmc feature."
+                                style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px;">
+                        </a>
                     </article>
-                    
+
                     <article
                         style="background: #FFFFFF; border: 1px solid #B9DFFF; border-radius: 8px; padding: 28px; display: flex; flex-direction: column; gap: 8px">
-                        <h3 style="margin: 0; font-size: 22px">COMING SOON</h3>
-                        <p style="margin: 0; line-height: 1.5; color: #123253">Soon...</p>
-                        <a href="https://youtu.be/dQw4w9WgXcQ?si=vxxTHr5pBwigRLar">view</a>
+                        <h3 style="margin: 0; font-size: 22px">GarnetAI</h3>
+                        <p style="margin: 0; line-height: 1.5; color: #123253">AI-powered Discord bot-engine
+                            Discord servers.</p>
+                        <a href="https://youtu.be/dQw4w9WgXcQ?si=vxxTHr5pBwigRLar">Coming soon...</a>
                     </article>
                 </div>
             </section>
 
             <hr style="border: 0; border-top: 3px solid #123253; margin: 0;">
 
+
+            <!--</div style=something> will experiment, learning HTML-->
             <section id="contact"
                 style="max-width: 1120px; margin: 0 auto; padding: 80px 32px 80px; box-sizing: border-box">
                 <div style="background: #071426; border-radius: 12px; padding: 48px;
@@ -124,11 +154,17 @@
                     <p style="margin: 0; font-size: 24px; letter-spacing: -1px; color: #FFFFFF">
                         Email us: <a href="mailto:antarcticdevs@gmail.com">antarcticdevs@gmail.com</a>
                         <br>
-                        Discord: <a href="https://dsc.gg/antarcticdevs">https://dsc.gg/antarcticdevs</a>
+                        Discord: <a href="https://dsc.gg/antarcticdevs">dsc.gg/antarcticdevs</a>
+                        <br>
+                        YouTube: <a href="https://www.youtube.com/@AntarcticDevs">youtube.com/@AntarcticDevs</a>
+                        <br>
+                        GitHub: <a href="https://github.com/AntarcticDevs">AntarcticDevs GitHub Organisation</a>
                     </p>
                 </div>
             </section>
         </main>
+
+        <br>
         <footer style="max-width: 1120px; margin: 0 auto; padding: 0 32px 40px; box-sizing: border-box; color: #123253">
             © 2026 AntarcticDevs
         </footer>
